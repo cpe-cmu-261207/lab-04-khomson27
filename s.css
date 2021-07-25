@@ -1,0 +1,58 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:blueviolet;
+}
+.big{
+    overflow-y: scroll;
+}
+.delbtn
+{
+    opacity: 0;
+    background-color: rgba(255, 0, 55, 0.664);
+    width: 50px;
+    margin-left: 10px;
+    border-radius: 8px;
+    transition: .4s;
+}
+
+.donbtn 
+{
+    opacity: 0;
+    background-color: rgba(60, 255, 0, 0.74);
+    width: 50px;
+    margin-left: 25px;
+    border-radius: 8px;
+    transition: .4s;
+}
+.mspan{
+    justify-content: flex-start;
+    text-align: start;
+    display: flex;
+}
+.mspan:hover .delbtn {
+    opacity: 1;
+}
+
+.mspan:hover .donbtn {
+    opacity: 1;
+}
+
+.doneactive
+{
+    text-decoration: line-through;
+}
+
+.donebtn {
+    display: none;
+}
+.textspan{
+    width: 100px;
+}
+input{
+    margin: 15px;
+}
